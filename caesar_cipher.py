@@ -17,6 +17,7 @@ def decrypt(encrypt_txt,n):
 			encrypt_txt+=i
 	return decryption
 
+
 txt=input("Enter any string of your choice")
 key=3
 enc_txt=encrypt(txt,key)
