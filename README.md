@@ -36,20 +36,31 @@ The decrypt() function reverses the process by shifting the letters back by n po
 
   3) The decrypted text is displayed.
  
-## Code Inference
-Enter the text: pizza
-
-enter the key: 1
-
-encrypted text: qjaab
-
-decrypted text: pizza
-
 ## Output image
-
 ![image](https://github.com/user-attachments/assets/89c31c9b-7673-4bde-8885-5fd6b15e6bb1)
 
+## Steps to use the code
 
+1) Clone the repository using:
+```sh
+git clone https://github.com/yourusername/caesar-cipher.git
+```
+2) Navigate to the project directory:
+```sh
+cd caesar-cipher
+```
+3) Run the script using Python:
+```sh
+python caesar_cipher.py
+```
+4) Follow the prompts to enter text and a key for encryption and decryption.
+
+
+## Codespace Link
+
+You may use the following link to run this code in codespace.
+
+https://super-duper-succotash-x55v54xqj7ppc96w.github.dev/
 
 
 
