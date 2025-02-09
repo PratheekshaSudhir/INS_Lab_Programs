@@ -34,5 +34,4 @@ plain=input("enter the plain text to encrypt ")
 #     key_vector=np.array(key_text[i:i+m])
 #     key_mat.extend(key_vector)
 key=[[7,8],[11,11]]
-print("Cipher Text: ",encrypt_hill(plain,key
-                                   ))
+print("Cipher Text: ",encrypt_hill(plain,key))
