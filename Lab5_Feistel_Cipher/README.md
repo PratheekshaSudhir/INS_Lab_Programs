@@ -5,8 +5,11 @@ This repository contains a simple implementation of the Feistel Cipher, a symmet
 
 ## Features
 ✅ Encryption: Encrypts plaintext using a Feistel network with multiple rounds.
+
 ✅ Decryption: Reverses encryption using the same round keys in reverse order.
+
 ✅ Padding Handling: Ensures even-length plaintext by appending "X" if necessary.
+
 ✅ Simple Round Function: Uses a sum-based function for educational purposes.
 
 ## How the Round Function Works
