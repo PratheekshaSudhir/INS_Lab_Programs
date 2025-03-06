@@ -5,9 +5,13 @@ This repository contains an implementation of Data Encryption Standard (DES) key
 
 ## Features
 ✅ Binary Conversion: Converts input text into an 8-bit binary format.
+
 ✅ Bit Manipulation: Removes the first bit of every byte (sign bit) for further processing.
+
 ✅ Left-Right Splitting: Divides the processed binary into two equal halves.
+
 ✅ Bit Shifting: Uses a predefined shift box for controlled shifting.
+
 ✅ Randomized Key Selection: Generates 8 unique keys using random bit selection.
 
 ## How the Key Generation Works
@@ -31,7 +35,7 @@ The remaining bits are divided into left and right parts.
 4) Bit Shifting with Shift Box:
 A predefined shift box (lt = [2,3,6,7,1,6,5,9]) determines how many bits are shifted.
 
-5)Generate New Keys:
+5) Generate New Keys:
 - Left and Right halves are shifted based on the shift box values.
 - Randomized selection ensures uniqueness in generated keys.
 - 8 unique keys are extracted for use in DES encryption.
